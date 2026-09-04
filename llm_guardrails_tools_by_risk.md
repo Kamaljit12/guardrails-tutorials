@@ -768,6 +768,23 @@ Structured output
 | **Guardrails AI**   | ✅           | Apache 2.0 | ✅     | Validation, structured output, safety/quality checks    |
 
 
+## You can use in this flow
+
+```text
+Your Application
+       ↓
+Presidio              → PII protection
+       ↓
+NeMo Guardrails       → Input/security rails
+       ↓
+LLM API / Local LLM   → Actual model
+       ↓
+NeMo Guardrails       → Output rails
+       ↓
+Guardrails AI         → Validation
+       ↓
+Your User
+```
 The strongest architecture is **defense in depth**, using specialized
 controls together rather than expecting one guardrail framework to solve
 every problem.
