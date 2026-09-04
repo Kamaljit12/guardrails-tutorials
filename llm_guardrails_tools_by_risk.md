@@ -761,6 +761,13 @@ Structured output
 → Pydantic / JSON Schema
 ```
 
+| Tool                | Open Source | License    | Free? | Main use                                                |
+| ------------------- | ----------- | ---------- | ----- | ------------------------------------------------------- |
+| **Presidio**        | ✅           | MIT        | ✅     | PII detection, masking, anonymization                   |
+| **NeMo Guardrails** | ✅           | Apache 2.0 | ✅     | Input/output rails, jailbreak, prompt injection, safety |
+| **Guardrails AI**   | ✅           | Apache 2.0 | ✅     | Validation, structured output, safety/quality checks    |
+
+
 The strongest architecture is **defense in depth**, using specialized
 controls together rather than expecting one guardrail framework to solve
 every problem.
